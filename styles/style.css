@@ -5,18 +5,19 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
   padding: 0;
-  box-sizing: border-box;
 }
 div, section {
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  border: 1px solid blue;
   background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 .header__logo {
   width: 228px;
@@ -25,30 +26,50 @@ div, section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
 }
 .header__title {
   width: 730px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
+  margin-left: 64px;
+  z-index: 3;
 }
+
 .header__subtitle {
   width: 338px;
   font-size: 18px;
   line-height: 25px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 3;
+
 }
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  background-image: url(../images/header-image.png);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  /* background-image: url(../images/header-image.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 .header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -60,5 +81,4 @@ div, section {
 }
 
 .footer {
-  border: 1px solid blue;
 }
