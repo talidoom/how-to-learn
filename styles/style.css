@@ -6,9 +6,9 @@
   color: #000;
   padding: 0;
 }
-div, section {
+/* div, section {
   border: 1px solid red;
-}
+} */
 
 .header {
   height: 100vh;
@@ -70,6 +70,49 @@ div, section {
   right: 0;
   top: 64px;
   z-index: 1;
+}
+
+.project_margin {
+  margin-bottom: 100px;
+}
+
+/* .centered-block {
+  display: flex;
+  justify-content: center;
+} */
+.dicription {
+  display: flex;
+  justify-content: center;
+}
+
+.dicription__two-columns {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dicription__two-columns__brief {
+  width: 175px;
+  color:  #2f80ed;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.dicription__two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+.dicription__two-columns__paragraph {
+  margin: 30px 0 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+.dicription__two-columns__paragraph:first-of-type {
+  margin-top: 0;
+}
+.span-accent {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
