@@ -6,9 +6,6 @@
   color: #000;
   padding: 0;
 }
-/* div, section {
-  border: 1px solid red;
-} */
 
 .header {
   height: 100vh;
@@ -113,6 +110,47 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
+}
+
+.digits {
+  margin: 0 auto;
+  width: 1110px;
+}
+.digits__titile {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.digits__subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.table__row {
+  width: 250px;
+  margin-top: 60px;
+}
+.table__row__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+.table__row__paragraph {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 20px 0 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
