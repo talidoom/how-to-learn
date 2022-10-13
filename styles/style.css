@@ -152,9 +152,9 @@
   line-height: 1.2;
   margin: 20px 0 0;
 }
-div, section, article {
+/* div, section, article, h4, p {
   border: 1px solid blue;
-}
+} */
 .feynman {
   position: relative;
   height: 890px;
@@ -182,13 +182,57 @@ div, section, article {
   line-height: 51px;
   color: #2f80ed;
 }
+
+.kaufman_theme_dark {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.table__theme_dark {
+  margin: 0 auto;
+  width: 1110px;
+  z-index: 1;
+}
+.section-titile_theme_dark {
+  color: white;
+  z-index: 1;
+}
+.section-subtitile_theme_dark {
+  color: white;
+  z-index: 1;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
+.table__heading_theme_dark {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+  z-index: 1;
+}
+.table__text_theme_dark {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 20px 0 0;
+  z-index: 1;
+}
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
+}
+
 
 .footer {
 }
