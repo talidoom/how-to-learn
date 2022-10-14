@@ -15,6 +15,8 @@
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  /* на мелких экранах синий квадрат улетает за пределы шапки, поэтому стоит новый параметр */
 }
 .logo_place_header {
   width: 228px;
@@ -49,6 +51,7 @@
 }
 .header__link:hover {
   text-decoration: underline;
+  /* добавила для обращения внимания на ссылку */
 }
 .header__main-illustration {
   width: 765px;
@@ -59,6 +62,7 @@
   z-index: 2;
 }
 .header__square-pic {
+  margin:0;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -68,16 +72,11 @@
   z-index: 1;
 }
 
-/* .project_margin {
-  margin-bottom: 100px;
-} */
-
 .dicription {
   display: flex;
   justify-content: center;
   margin-top: 100px;
 }
-
 .two-columns {
   width: 80%;
   display: flex;
@@ -86,7 +85,7 @@
 }
 .two-columns__brief {
   width: 175px;
-  color:  #2f80ed;
+  color: #2f80ed;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -101,6 +100,7 @@
   line-height: 34px;
 }
 .two-columns__paragraph:first-of-type {
+  margin: 0;
   margin-top: 0;
 }
 .two-columns__span-accent {
@@ -156,6 +156,7 @@
   position: relative;
   height: 890px;
   background: url(../images/feynman.png) bottom left/867px 637px no-repeat, #f2f2f2;
+  /* множественный фон для сокращения кода */
 }
 .feynman__title {
   padding-top: 100px;
@@ -171,6 +172,7 @@
   line-height: 51px;
   font-weight: normal;
   display: flex;
+  margin: 0;
   margin-top: 70px;
   justify-content: center;
 }
@@ -185,6 +187,7 @@
 }
 .feynman__link:hover {
   text-decoration: underline;
+  /* для обращения внимания на ссылку */
 }
 
 .kaufman_theme_dark {
@@ -207,7 +210,6 @@
   color: white;
   z-index: 1;
 }
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -253,6 +255,7 @@
   min-height: 350px;
 }
 .footer-column_content_copyright {
+  margin: 0;
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -268,7 +271,7 @@
 .footer__author {
   margin: 18px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 25px;
 }
 .footer__column-links {
@@ -277,7 +280,7 @@
   margin: 20px 0 16px;
 }
 .column-links__list {
-  padding: 0;
+  margin: 0;
   margin-bottom: 16px;
   display: block;
   text-decoration: none;
@@ -285,6 +288,7 @@
 }
 .column-links__list:hover {
   color: #2f80ed;
+  /* добавила для обращения внимания на ссылки */
 }
 .footer__column-heading {
   font-size: 18px;
@@ -293,6 +297,7 @@
   margin: 0 0 20px;;
 }
 .footer__column-link {
+  margin: 0;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
@@ -302,9 +307,11 @@
 
 }
 .footer__social-icon {
+  margin: 0;
   margin-right: 10px;
 }
 
-/* div, section, article, h4, p {
+/* div, section, article, h4, h3, h2, h1, p, span {
   border: 1px solid blue;
 } */
+/* параметры для визуального разгранечения при редактировании */
