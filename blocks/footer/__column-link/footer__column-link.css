@@ -1,0 +1,12 @@
+.footer__column-link {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.footer__column-link:last-of-type {
+  margin-bottom: 16px;
+}

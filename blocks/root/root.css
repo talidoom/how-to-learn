@@ -1,0 +1,13 @@
+.root {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
+  padding: 0;
+}
+
+/* div, section, article, h4, h3, h2, h1, p, span, nav,a {
+  outline: 1px solid blue;
+} */
+/* параметры для визуального разгранечения при редактировании
