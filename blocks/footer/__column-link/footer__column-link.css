@@ -6,7 +6,11 @@
   color: white;
   text-decoration: none;
   display: block;
+  transition: 0.40s opacity;
 }
 .footer__column-link:last-of-type {
   margin-bottom: 16px;
+}
+.footer__column-link:hover {
+  opacity: 60%;
 }

@@ -6,10 +6,11 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  transition: 0.40s opacity;
 }
 .footer__column-links:last-of-type {
   margin-bottom: 16px;
 }
 .footer__column-links:hover {
-  color: #2f80ed;
+  opacity: 60%;
 }
