@@ -10,6 +10,5 @@
   transition: 0.40s opacity;
 }
 .feynman__link:hover {
-  text-decoration: underline;
   opacity: 60%;
 }

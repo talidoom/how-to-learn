@@ -6,6 +6,7 @@
   line-height: 42px;
   color: #2f80ed;
   transition: 0.40s opacity;
+  text-decoration: none;
 }
 .khan__buy-link:hover {
   opacity: 60%;
