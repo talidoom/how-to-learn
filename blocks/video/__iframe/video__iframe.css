@@ -1,7 +1,5 @@
 .video__iframe {
-  /* в случае переноса параметров из iframe в стили
-  width: 515px;
-  height: 316px; */
+  border: 0;
 }
 .video__iframe:first-of-type {
   margin-right: 20px;
