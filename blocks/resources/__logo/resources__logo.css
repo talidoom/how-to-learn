@@ -1,4 +1,4 @@
 .resources__logo {
-  background-size: cover;
+  object-fit: contain;
   width: 100%;
 }
