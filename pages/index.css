@@ -74,6 +74,15 @@
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 
+@import url(../blocks/contacts/contacts.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__input-handlers/form__input-handlers.css);
+@import url(../blocks/form/__button/form__button.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);

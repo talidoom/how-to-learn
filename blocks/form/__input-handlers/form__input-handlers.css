@@ -1,0 +1,6 @@
+.form__input-handlers {
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  margin: 15px 0;
+}

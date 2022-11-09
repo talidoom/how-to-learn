@@ -201,6 +201,41 @@
       </div>
     </section>
 
+    <section class="contacts">
+      <h2 class="section-title">Контактная форма</h2>
+      <p class=" section-subtitle">Оставьте комментарий и мы вам ответим</p>
+      <form class="form">
+        <fieldset class="form__input-container">
+          <label class="form__label" for="firstname">Имя</label>
+            <input class="form__item form__item_text" name="firstname" id="firstname" type="text" placeholder="Джон" required>
+
+          <label class="form__label" for="secondname">Фамилия</label>
+            <input class="form__item form__item_text" name="secondname" id="secondname" type="text" placeholder="Шепард">
+
+          <label class="form__label" for="country">Страна</label>
+          <select class="form__item form__item_select" id="country" name="country">
+            <option value="russia">Россия</option>
+            <option value="ukraine">Украина</option>
+            <option value="belarus">Белоруссия</option>
+            <option value="azerbaijan">Азербайджан</option>
+            <option value="armenia">Армения</option>
+            <option value="kazakhstan">Казахстан</option>
+            <option value="moldova">Молдова</option>
+            <option value="uzbekistan">Узбекистан</option>
+            <option value="tadjikistan">Таджикистан</option>
+          </select>
+
+          <label class="form__label" for="main-text">Комментарий</label>
+            <textarea class="form__item form__item_main-text" name="main-text" id="main-text" placeholder="Оставьте ваш комментарий..." required></textarea>
+        </fieldset>
+
+          <fieldset class="form__input-handlers">
+              <input class="form__button" type="submit">
+              <input class="form__button" type="reset">
+          </fieldset>
+        </form>
+    </section>
+
   </main>
 
     <footer class="footer">
