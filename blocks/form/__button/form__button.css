@@ -1,15 +1,20 @@
 .form__button {
   width: 50%;
   border: 0;
+  box-sizing: border-box;
   padding: 10px 0;
   cursor: pointer;
   transition: opacity .3s;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: white;
 }
 .form__button[type=submit] {
   background-color: #2f80ed;
 }
 .form__button[type=reset] {
-  background-color: white;
+  background-color: #1f1f1f;
 }
 .form__button:hover {
   opacity: 0.7;

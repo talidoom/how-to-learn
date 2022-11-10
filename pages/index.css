@@ -80,6 +80,9 @@
 @import url(../blocks/form/__input-container/form__input-container.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_text/form__item_text.css);
+@import url(../blocks/form/__item/_select/form__item_select.css);
+@import url(../blocks/form/__item/_main-text/form__item_main-text.css);
 @import url(../blocks/form/__input-handlers/form__input-handlers.css);
 @import url(../blocks/form/__button/form__button.css);
 
